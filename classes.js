@@ -9,6 +9,7 @@ function start () {
 
   // Your turn! Create a new function called `two`, then call it from here.
   two()
+  three()
 }
 
 function one () {
@@ -28,5 +29,11 @@ var two = document.getElementById('two')
 two.classList.add('green')
 }
 // CREATE FUNCTION three HERE
+function three () {
+// First, we have to find the element:
+var three = document.getElementById('three')
 
+// Next, we apply a new CSS class to it:
+three.classList.add('red')
+}
 // CREATE FUNCTION makeVisible HERE
